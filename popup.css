@@ -1,0 +1,34 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { width: 300px; margin: 0; padding: 12px; font: 13px/1.4 system-ui, sans-serif; background: #111827; color: #e5e7eb; }
+header, .row, .site { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+h1 { font-size: 16px; margin: 0; }
+.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 12px 0; }
+.stats div { background: #1f2937; border-radius: 8px; padding: 10px; text-align: center; }
+.stats b { display: block; font-size: 22px; color: #60a5fa; }
+.stats small { color: #9ca3af; }
+.site { margin-bottom: 10px; }
+#host { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #9ca3af; }
+button { background: #2563eb; color: #fff; border: 0; border-radius: 6px; padding: 6px 10px; cursor: pointer; font: inherit; }
+button:hover { background: #1d4ed8; }
+button:disabled { background: #374151; cursor: default; }
+button.secondary { background: #374151; }
+.row { padding: 8px 0; border-top: 1px solid #1f2937; }
+details { border-top: 1px solid #1f2937; padding: 8px 0; }
+summary { cursor: pointer; }
+textarea { width: 100%; margin: 8px 0; background: #1f2937; color: inherit; border: 1px solid #374151; border-radius: 6px; padding: 6px; font: 12px ui-monospace, monospace; resize: vertical; }
+ul { list-style: none; margin: 8px 0 0; padding: 0; }
+li { display: flex; justify-content: space-between; align-items: center; padding: 3px 0; }
+li button { padding: 2px 8px; background: #374151; }
+.sw { position: relative; display: inline-block; width: 38px; height: 22px; }
+.sw input { opacity: 0; width: 0; height: 0; }
+.sw span { position: absolute; inset: 0; background: #374151; border-radius: 22px; transition: .15s; cursor: pointer; }
+.sw span::before { content: ""; position: absolute; width: 16px; height: 16px; left: 3px; top: 3px; background: #fff; border-radius: 50%; transition: .15s; }
+.sw input:checked + span { background: #2563eb; }
+.sw input:checked + span::before { transform: translateX(16px); }
+.status { color: #9ca3af; font-size: 12px; margin: 6px 0; white-space: pre-line; }
+.status.err { color: #fca5a5; }
+.lists li { justify-content: flex-start; gap: 8px; padding: 2px 0; }
+.lists label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.lists input { accent-color: #2563eb; }
+#update { margin-top: 8px; }

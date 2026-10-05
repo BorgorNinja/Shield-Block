@@ -1,0 +1,67 @@
+{
+  "manifest_version": 3,
+  "name": "ShieldBlock",
+  "version": "2.0.0",
+  "description": "Ad and tracker blocker using uBlock Origin / EasyList filter lists with automatic updates, cosmetic filtering, YouTube ad skipping, per-site allowlist.",
+  "minimum_chrome_version": "121",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "storage",
+    "unlimitedStorage",
+    "activeTab",
+    "alarms",
+    "scripting",
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ShieldBlock",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ads",
+        "enabled": true,
+        "path": "rules/ads.json"
+      },
+      {
+        "id": "trackers",
+        "enabled": true,
+        "path": "rules/trackers.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}

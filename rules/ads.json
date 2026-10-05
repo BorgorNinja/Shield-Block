@@ -1,0 +1,342 @@
+[
+ {
+  "id": 1,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "2mdn.net",
+    "33across.com",
+    "ad.gt",
+    "adblade.com",
+    "adcolony.com",
+    "adform.net",
+    "adgrx.com",
+    "adition.com",
+    "admixer.net",
+    "adnxs.com",
+    "ads.linkedin.com",
+    "ads.mopub.com",
+    "ads.pinterest.com",
+    "ads.tiktok.com",
+    "ads.twitter.com",
+    "ads.yahoo.com",
+    "adsafeprotected.com",
+    "adservice.google.com",
+    "adskeeper.com",
+    "adsrvr.org",
+    "adsymptotic.com",
+    "adtechus.com",
+    "adtelligent.com",
+    "adthrive.com",
+    "advertising.amazon.com",
+    "advertising.com",
+    "amazon-adsystem.com",
+    "applovin.com",
+    "bidr.io",
+    "bidswitch.net",
+    "bidvertiser.com",
+    "casalemedia.com",
+    "chartboost.com",
+    "connectad.io",
+    "content.ad",
+    "contextweb.com",
+    "conversantmedia.com",
+    "criteo.com",
+    "criteo.net",
+    "doubleclick.net",
+    "doubleverify.com",
+    "fastclick.net",
+    "googleadservices.com",
+    "googlesyndication.com",
+    "googletagservices.com",
+    "gumgum.com",
+    "improvedigital.com",
+    "indexww.com",
+    "infolinks.com",
+    "inmobi.com",
+    "ironsrc.com",
+    "kargo.com",
+    "lijit.com",
+    "loopme.me",
+    "media.net",
+    "mediavine.com",
+    "mgid.com",
+    "moatads.com",
+    "nativo.com",
+    "onetag-sys.com",
+    "openx.net",
+    "outbrain.com",
+    "primis.tech",
+    "pubmatic.com",
+    "revcontent.com",
+    "richaudience.com",
+    "rubiconproject.com",
+    "seedtag.com",
+    "serving-sys.com",
+    "sharethrough.com",
+    "smaato.net",
+    "smartadserver.com",
+    "sovrn.com",
+    "spotxchange.com",
+    "springserve.com",
+    "static.ads-twitter.com",
+    "supersonicads.com",
+    "taboola.com",
+    "teads.tv",
+    "tremorhub.com",
+    "triplelift.com",
+    "undertone.com",
+    "vungle.com",
+    "yadro.ru",
+    "yieldmo.com",
+    "zedo.com"
+   ],
+   "resourceTypes": [
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ },
+ {
+  "id": 2,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "ad-maven.com",
+    "adcash.com",
+    "adsterra.com",
+    "clickadu.com",
+    "exoclick.com",
+    "exosrv.com",
+    "hilltopads.net",
+    "juicyads.com",
+    "onclickads.net",
+    "popads.net",
+    "popcash.net",
+    "propellerads.com",
+    "pushengage.com",
+    "pushnami.com",
+    "richpush.co",
+    "trafficfactory.biz",
+    "trafficjunky.net",
+    "yllix.com"
+   ],
+   "resourceTypes": [
+    "main_frame",
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ },
+ {
+  "id": 10,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "urlFilter": "||youtube.com/api/stats/ads",
+   "resourceTypes": [
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ },
+ {
+  "id": 11,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "urlFilter": "||youtube.com/pagead/",
+   "resourceTypes": [
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ },
+ {
+  "id": 12,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "urlFilter": "||google.com/pagead/",
+   "resourceTypes": [
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ },
+ {
+  "id": 13,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "urlFilter": "||google.com/adsense/",
+   "resourceTypes": [
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ },
+ {
+  "id": 14,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "urlFilter": "/adsbygoogle.js",
+   "resourceTypes": [
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ },
+ {
+  "id": 15,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "urlFilter": "/adserver/",
+   "domainType": "thirdParty",
+   "resourceTypes": [
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ },
+ {
+  "id": 16,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "urlFilter": "/ads/banner",
+   "domainType": "thirdParty",
+   "resourceTypes": [
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ },
+ {
+  "id": 17,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "urlFilter": "/prebid.js",
+   "domainType": "thirdParty",
+   "resourceTypes": [
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ }
+]

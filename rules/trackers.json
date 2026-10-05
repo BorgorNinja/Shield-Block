@@ -1,0 +1,138 @@
+[
+ {
+  "id": 1,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "2o7.net",
+    "adscertain.com",
+    "agkn.com",
+    "amplitude.com",
+    "analytics.google.com",
+    "analytics.tiktok.com",
+    "analytics.twitter.com",
+    "analytics.yahoo.com",
+    "bat.bing.com",
+    "bluekai.com",
+    "bounceexchange.com",
+    "chartbeat.com",
+    "chartbeat.net",
+    "clarity.ms",
+    "crazyegg.com",
+    "crwdcntrl.net",
+    "demdex.net",
+    "everesttech.net",
+    "exelator.com",
+    "eyeota.net",
+    "fullstory.com",
+    "google-analytics.com",
+    "histats.com",
+    "hotjar.com",
+    "hotjar.io",
+    "id5-sync.com",
+    "krxd.net",
+    "liadm.com",
+    "luckyorange.com",
+    "mathtag.com",
+    "mc.yandex.ru",
+    "mixpanel.com",
+    "ml314.com",
+    "mouseflow.com",
+    "nr-data.net",
+    "omtrdc.net",
+    "owneriq.net",
+    "pixel.facebook.com",
+    "px.ads.linkedin.com",
+    "quantserve.com",
+    "rfihub.com",
+    "rlcdn.com",
+    "scorecardresearch.com",
+    "segment.io",
+    "sitescout.com",
+    "snap.licdn.com",
+    "statcounter.com",
+    "tapad.com"
+   ],
+   "resourceTypes": [
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ },
+ {
+  "id": 10,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "urlFilter": "||facebook.com/tr^",
+   "resourceTypes": [
+    "image",
+    "ping",
+    "script",
+    "xmlhttprequest",
+    "sub_frame",
+    "other"
+   ]
+  }
+ },
+ {
+  "id": 11,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "urlFilter": "||t.co/i/adsct",
+   "resourceTypes": [
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ },
+ {
+  "id": 12,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "urlFilter": "||twitter.com/i/adsct",
+   "resourceTypes": [
+    "sub_frame",
+    "stylesheet",
+    "script",
+    "image",
+    "font",
+    "object",
+    "xmlhttprequest",
+    "ping",
+    "media",
+    "websocket",
+    "other"
+   ]
+  }
+ }
+]

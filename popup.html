@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>ShieldBlock</h1>
+    <label class="sw"><input type="checkbox" id="enabled"><span></span></label>
+  </header>
+
+  <section class="stats">
+    <div><b id="page">0</b><small>blocked on page</small></div>
+    <div><b id="total">0</b><small>blocked total</small></div>
+  </section>
+
+  <div class="site">
+    <span id="host">-</span>
+    <button id="pause">Pause on this site</button>
+  </div>
+
+  <details open>
+    <summary>Filter lists</summary>
+    <div id="status" class="status">-</div>
+    <ul id="lists" class="lists"></ul>
+    <button id="update">Update now</button>
+  </details>
+
+  <details>
+    <summary>Custom blocklist</summary>
+    <textarea id="custom" rows="5" placeholder="One domain per line&#10;example.com"></textarea>
+    <button id="save">Save</button>
+  </details>
+
+  <details>
+    <summary>Allowlist</summary>
+    <ul id="allow"></ul>
+  </details>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
